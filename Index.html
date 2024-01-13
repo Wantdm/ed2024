@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Patient Data Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="notice">
+        <p><strong>Note:</strong> This website is a demonstration and is still under development. The full-fledged version will be available soon.</p>
+    </div>
+    <div class="container">
+        <div id="loginPage" class="login-page">
+            <h2>Patient Data Access</h2>
+            <input type="password" id="password" placeholder="Enter Password" class="password-field">
+            <button onclick="checkPassword()" class="login-button">Login</button>
+        </div>
+        <div id="dataPage" class="data-page" style="display:none;">
+            <h2>Patient Vital Data</h2>
+            <div class="patient-info">
+                <h3>John Doe</h3>
+                <p><strong>Condition:</strong> Allergic to Penicillin</p>
+                <p><strong>Blood Type:</strong> A+</p>
+                <p><strong>Age:</strong> 45</p>
+                <p><strong>Emergency Contact:</strong> Jane Doe, 555-0123</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+     
+
+    

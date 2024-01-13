@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.notice {
+    background-color: #ffffe0;
+    color: #333;
+    border-left: 4px solid #ffeb3b;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.login-page, .data-page {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.password-field, .login-button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.patient-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.patient-info h3 {
+    color: #333;
+}
+
+.patient-info p {
+    color: #666;
+}
