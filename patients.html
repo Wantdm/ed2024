@@ -22,21 +22,10 @@
         </ul>
     </nav>
 
-    <main class="container">
-        <div class="grid">
-            <section>
-                <hgroup>
-                    <h2>Welcome to the Patient Data Portal</h2>
-                    <h3>Access Confidential Patient Information</h3>
-                </hgroup>
-                <p>Please enter the password to access patient data.</p>
-                <form id="passwordForm">
-                    <input type="password" id="passwordInput" placeholder="Enter password" required>
-                    <button type="submit">Access</button>
-                    <p id="errorMessage" class="error"></p>
-                </form>
-            </section>
-        </div>
+    <main class="container">        
+        <input type="text" id="searchInput" placeholder="Search patients..." oninput="searchPatients()">
+        <h1>Patient List</h1>
+        <ul id="patientList" class="list-unstyled"></ul>
     </main>
 
     <footer class="container">
@@ -44,6 +33,8 @@
             <a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a>
         </small>
     </footer>
-    <script src="script.js"></script>
+  
+    
+    <script src="patients.js"></script>
 </body>
 </html>

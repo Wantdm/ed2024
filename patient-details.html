@@ -23,20 +23,9 @@
     </nav>
 
     <main class="container">
-        <div class="grid">
-            <section>
-                <hgroup>
-                    <h2>Welcome to the Patient Data Portal</h2>
-                    <h3>Access Confidential Patient Information</h3>
-                </hgroup>
-                <p>Please enter the password to access patient data.</p>
-                <form id="passwordForm">
-                    <input type="password" id="passwordInput" placeholder="Enter password" required>
-                    <button type="submit">Access</button>
-                    <p id="errorMessage" class="error"></p>
-                </form>
-            </section>
-        </div>
+        <h1>Patient Details</h1>
+        <div id="patientDetails"></div>
+        <button onclick="window.history.back()">Back to Patient List</button>
     </main>
 
     <footer class="container">
@@ -44,6 +33,7 @@
             <a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a>
         </small>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="patientDetails.js"></script>
 </body>
 </html>
