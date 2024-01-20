@@ -23,3 +23,8 @@ body .mock-notice p {
     vertical-align: middle;
     display: inline-block;
 }
+.password-reveal {
+    color: #d32f2f; /* or any vibrant color for visibility */
+    font-size: 1.1em;
+    margin: 10px 0;
+}
